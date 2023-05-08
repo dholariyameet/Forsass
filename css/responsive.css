@@ -1,0 +1,27 @@
+@media screen and (max-width:1024px) {
+    .banner .sli-content{
+        left: -50px;
+        top: 50%;
+    }
+}
+@media screen and (max-width:768px) {
+    .banner .sli-content{
+        top: 20%;
+        left: -50px;
+    }
+    .banner .sli-content,.sub-btn,.social-icon{
+        top: 20%;
+        left: -50px;
+    }
+    .sli-content .ban-title{
+        text-align: center;
+        width: 75%;
+    }
+    .ban-text .narrow-text{
+        text-align: center;
+        width: 75%;
+    }
+    .ban-title h1{
+        font-size: 40px;
+    }
+}
